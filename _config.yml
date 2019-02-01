@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 奈何花开的博客
 subtitle:
-description:
+description: 个人博客，用于记录和分享知识！
 keywords:
-author: John Doe
-language:
+author: 奈何花开
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:year:month:day-:title/
 permalink_defaults:
 
 # Directory
@@ -29,13 +29,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year:month:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +82,9 @@ deploy:
   type: git
   repo: https://github.com/mqingqiang/mqingqiang.github.io.git
   branch: master
+
+################################## hexo-theme-next 配置 ##################################
+# hexo-theme-next 主题的配置项，统一在此处，不再在 themes/next/_config.yml 中配置
+theme_config:
+  
+################################## hexo-theme-next 配置 ##################################
