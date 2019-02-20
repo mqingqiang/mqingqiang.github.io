@@ -33,7 +33,7 @@ comments:
 ### 二、安装 Hexo
 
 - 执行命令：`npm install hexo-cli -g`
-  ![](https://raw.githubusercontent.com/mqingqiang/pic/master/img/1548905279220.png?token=AdKuDjIttbvtIkIFJL6UQdd4CTNehGQ5ks5cVBKSwA%3D%3D)
+  ![](https://raw.githubusercontent.com/mqingqiang/pic/master/img/20190220162750.png)
 - 创建存放博客的目录（如我的为 F:\Hexo\myblog）
 - 初始化 Hexo 网站（比较漫长的等待）：`hexo init`
 - 生成静态页面：`hexo g`
